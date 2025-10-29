@@ -16,3 +16,7 @@ mvnw.cmd
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Gradle
+.gradle/
+build/
