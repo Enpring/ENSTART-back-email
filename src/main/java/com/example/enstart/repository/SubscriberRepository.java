@@ -1,0 +1,9 @@
+package com.example.enstart.repository;
+
+import com.example.enstart.model.Subscriber;
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.Optional;
+
+public interface SubscriberRepository extends JpaRepository<Subscriber, Integer> {
+    Optional<Subscriber> findByEmail(String email);
+}
