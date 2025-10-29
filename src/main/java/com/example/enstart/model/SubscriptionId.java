@@ -15,8 +15,8 @@ import java.io.Serializable;
 public class SubscriptionId implements Serializable {
 
     @Column(name = "subscriber_id")
-    private Long subscriberId;
+    private Integer subscriberId;
 
     @Column(name = "service_id")
-    private Long serviceId;
+    private Integer serviceId;
 }
