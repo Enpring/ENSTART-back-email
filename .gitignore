@@ -20,3 +20,5 @@ Thumbs.db
 # Gradle
 .gradle/
 build/
+
+*.env
